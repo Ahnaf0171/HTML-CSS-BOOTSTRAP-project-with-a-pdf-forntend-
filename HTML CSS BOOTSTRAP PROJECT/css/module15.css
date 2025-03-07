@@ -1,0 +1,197 @@
+
+.navbar_with_hero{
+    background: url("../assets/img/hero-bg-2.jpg") center center/cover; 
+}
+.navbar_with_hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(34, 4, 141, 0.767); 
+}
+
+.content_2 {
+    position: relative;
+    color: white;
+    top: 50%;
+    z-index: 1;
+}
+.test::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(57, 9, 230, 0.5); /* Adjust transparency here */
+}
+.hero-main{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+}
+.hero1{
+    color: rgb(170, 154, 132);
+    
+    
+   
+}
+#id1{
+    font-weight: bolder;
+    color: white;
+    text-decoration: underline;
+}
+.hero2{ 
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start; 
+    padding: 50px 50px 60px 120px;
+}
+.hero2img{
+    padding-top:50px ;
+    width:300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.about-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abt2{
+    display: flex;
+    gap: 10px;
+}
+.abt1{
+    justify-content: center;
+    align-items: center;
+}
+.abt21{
+    position: relative;
+    top: 50px
+}
+.skill-com{
+    display: flex;
+    gap: 5px;
+    font-size: x-large;
+}
+.count-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-com{
+    padding: 5px 10px 10px 0px;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.i2{
+    position: relative;
+    bottom:20px;
+    font-size: x-large;
+}
+.d-11{
+    justify-content: center;
+    align-items: center;
+}
+.detail{
+    justify-content: center;
+    align-items: center;
+}
+.owner{
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.owner-main{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.identity{
+    border: 1px solid black;
+    padding-left: 20px;
+    background-color: aliceblue;
+}
+.identity-main{
+    padding: 0px 20px 0px 20px;
+    position: relative;
+    bottom: 40px;
+  
+}
+.pricing{
+    gap: 20px;
+}
+.p1{
+    padding: 5px 5px 5px 5px;
+   
+}
+.p1-main{
+    padding: 5px 15px 5px 25px;
+   
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.taka{
+    display: flex;
+}
+.right{
+    display: flex;
+    gap: 5px;
+}
+.button1{
+    background-color: aqua;
+    border-radius: 10px;
+    border: 2px solid black ;
+    text-align: center;
+}
+#q{
+    font-weight: 700;
+
+}
+.address-full{
+    display: flex;
+    align-items: center;
+    line-height: 2px;
+    padding-top: 20px ;
+
+}
+.address-com1{
+    padding: 5px 5px 5px 5px;
+    font-size: x-large;
+}
+.fom1{
+    display: flex;
+}
+.address2{
+    justify-content: center;
+    align-items: center;
+}
+.button-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: blue;
+    color:white;
+}
+.subscribe{
+    display: flex;
+}
+.footer-s2{
+    text-align: center;
+}
